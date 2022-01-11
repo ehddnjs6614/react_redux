@@ -17,9 +17,10 @@ function Bottom() {
       >
         증가
       </button>
+
       <button
         onClick={() => {
-          dispatch(decrease())
+          dispatch(decrease('김동원'))
         }}
       >
         감소

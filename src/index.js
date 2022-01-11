@@ -6,6 +6,7 @@ import App from './App'
 import reducer from './store'
 import { Provider } from 'react-redux'
 
+//reducer 를 export 해야 가져올수있음
 const store = createStore(reducer)
 
 ReactDOM.render(

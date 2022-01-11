@@ -3,8 +3,7 @@ import { useSelector } from 'react-redux'
 import '../App.css'
 function Top() {
   //구조분할 할당
-
-  const { number, username } = useSelector(store => store)
+  const { number, username, age } = useSelector(store => store)
 
   return (
     <div className="sub_container">
@@ -12,6 +11,8 @@ function Top() {
       번호 : {number}
       <hr />
       이름 : {username}
+      <hr />
+      나이 : {age}
     </div>
   )
 }
